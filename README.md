@@ -1,9 +1,9 @@
 # Number_Guessing_Game_Operating_System_Penalty
 
-# İşletim Sistemi Cezalı Sayı Tahmin Oyunu!
+- İşletim Sistemi Cezalı Sayı Tahmin Oyunu!
 
 
-```
+```js
 const rl = require('readline-sync');
 const fs = require('fs');
 
